@@ -84,8 +84,7 @@ public class SignUpActivity extends AppCompatActivity{
             }
 
             @Override
-            public void onCodeSent(String s, PhoneAuthProvider.ForceResendingToken forceResendingToken) {
-                //mOneTimePassword.setVisibility(View.VISIBLE);
+            public void onCodeSent(String s, PhoneAuthProvider.ForceResendingToken forceResendingToken){
 
                 verificationID = s;
                 super.onCodeSent(s, forceResendingToken);
