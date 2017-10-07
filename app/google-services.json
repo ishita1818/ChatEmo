@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "371948628003",
+    "firebase_url": "https://chatemo-bce53.firebaseio.com",
+    "project_id": "chatemo-bce53",
+    "storage_bucket": "chatemo-bce53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371948628003:android:e216962a9a09ad37",
+        "android_client_info": {
+          "package_name": "com.android.ishita.chatemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371948628003-l9imdcebok5jitgvt43miq8ut6pkrdvn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.ishita.chatemo",
+            "certificate_hash": "b73c9e4a3b70a231e32e608d46c67c91288ac661"
+          }
+        },
+        {
+          "client_id": "371948628003-8fvhn37aoi1st9ub9d1gmusggevh7qad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-uM87LwdgiiKnHVOvRqynuSLyruQH0sM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371948628003-8fvhn37aoi1st9ub9d1gmusggevh7qad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
