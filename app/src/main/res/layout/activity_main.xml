@@ -1,12 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.android.ishita.chatemo.MainActivity">
+    tools:context="com.android.ishita.chatemo.MainActivity"
+    android:background="@drawable/bubblewallpaper">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/app_name"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="100dp"
+    android:textSize="50sp"
+    android:textColor="@color/colorAccent"
+    android:id="@+id/app_name_text_view"
+    />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="90dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/SignUp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/sign_up_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:elevation="8dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginLeft="90dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/SignIn"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/sign_in_button"
+        android:layout_above="@id/sign_up_button"
+        android:layout_marginBottom="32dp"
+        android:elevation="16dp"
+        />
 
+</RelativeLayout>
 
-
-    </LinearLayout>
