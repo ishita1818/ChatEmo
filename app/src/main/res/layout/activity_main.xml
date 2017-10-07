@@ -16,6 +16,7 @@
     android:textSize="50sp"
     android:textColor="@color/colorAccent"
     android:id="@+id/app_name_text_view"
+    android:textStyle="bold|italic"
     />
     <Button
         android:layout_height="wrap_content"
@@ -30,6 +31,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="70dp"
         android:elevation="8dp"
+        android:textStyle="bold"
         />
     <Button
         android:layout_width="match_parent"
@@ -44,6 +46,8 @@
         android:layout_above="@id/sign_up_button"
         android:layout_marginBottom="32dp"
         android:elevation="16dp"
+        android:onClick="onSignIn"
+        android:textStyle="bold"
         />
 
 </RelativeLayout>
